@@ -1,3 +1,5 @@
+#!/bin/bash
+
 npm install
 
 # Provide execution permission.
