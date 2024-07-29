@@ -7,7 +7,7 @@ resolver = "2"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bitcoin = { version = "0.32", features = ["bitcoinconsensus"] }
+bitcoin = { version = "0.32", features = ["bitcoinconsensus", "serde"] }
 hex = "0.4.3"
 rand = "0.8.5"
 rayon = "1.10.0"
